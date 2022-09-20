@@ -47,7 +47,7 @@ html
     height: 550px;
     transform-style: preserve-3d;
     transform: rotateY(deg);
-    /* animation: anime 10s ease infinite; */
+    animation: anime 10s ease infinite;
  }
 
  @keyframes anime {
