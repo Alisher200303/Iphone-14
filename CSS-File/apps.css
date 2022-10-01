@@ -41,8 +41,8 @@
   {
     margin-top: 55px;
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    bottom: 2px;
+    left: 4px;
   }
   .mainApps ul
   {
@@ -68,6 +68,7 @@
     justify-content: center;
     font-size: 40px;
     border-radius: 15px;
+    cursor: pointer;
   }
 
   section .display
@@ -140,21 +141,45 @@
 
     #settings
     {
-        background-color: gray;
+        background-color: rgb(92, 90, 90);
+    }
+
+    #settings
+    {
+      border: none;
+    }
+    #settings img
+    {
+      width: 65px;
     }
     #gallery
     {
-
+      border: none;
+    }
+    #gallery img
+    {
+      width: 80px;
     }
     #music
     {
-
+      background-color: #f13e3e;
+      border: none;
+    }
+    #music i
+    {
+      color: #fff;
     }
     #camera
     {
-
+      background-color: rgba(168, 165, 165, 0.849);
+      border: none;
     }
     #email
     {
-      
+      background-color: #228BE6;
+      border: none;
+    }
+    #email i
+    {
+      color: #fff;
     }

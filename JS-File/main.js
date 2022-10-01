@@ -10,13 +10,13 @@ let activeBtn = btnNum.forEach(item => {
     item.style.transform = "scale(.2)";
 });
 
-let activeTitle = lockTitle.style.transform = "scale(.2)";
+let activeTitle = lockTitle.style.transform = "scale(.0)";
 
 
 
 display.forEach(screen => {
     screen.addEventListener("click", () => {
-        if (screen.id == "firstScreen") {
+        if (screen.id == "firstScreen") {            
             btnNum.forEach(allBtn => {
                 gsap.to (allBtn, {
                     scale: 1,

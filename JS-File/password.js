@@ -3,7 +3,10 @@
 const input = document.querySelector("input");
 
 const numbers = document.querySelectorAll("li");
-const clearBtn = document.querySelector("#clear");
+const clearBtn = document.querySelector("#clear"),
+      iosMenu = document.querySelector("#iosMenu");
+
+iosMenu.style.transform = "scale(.5)";
 
 
 numbers.forEach(num => {
@@ -12,8 +15,11 @@ numbers.forEach(num => {
             let str = input.value.toString();
             input.value = str.substr(0, str.length - 1);
         } else if (input.accessKey == input.value) {
-            let body = document.querySelector("body");
-            body.style.background = "#fff";
+            gsap.to (iosMenu, {
+                scale: 1,
+                display: "block",
+                duration: .8,
+            });
         } else {
             input.value += num.id;
             clearBtn.style.color = "red";
