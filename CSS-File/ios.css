@@ -263,7 +263,7 @@ body
     background-image: url(/Image/font.jpg);
     background-size: cover;
     position: relative;
-    display: none;
+    /* display: none; */
 }
 .self-camera
 {
@@ -326,7 +326,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 
 .title h1

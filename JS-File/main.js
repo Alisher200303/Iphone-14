@@ -47,27 +47,34 @@ const collScreen = document.querySelector("#call-section");
 
 const phoneCall = document.querySelector("#phoneCall");
 
-const backBtn = document.querySelector(".back-btn i")
+const backBtn = document.querySelectorAll(".back-btn i")
 
 phoneCall.addEventListener("click", () => {
     gsap.to(collScreen, {
         scale: 1,
         x: 0,
         y: 0,
-        duration: .2,
+        duration: .2,   
     });  
 });
 
-backBtn.addEventListener("click", () => {
-    gsap.to(collScreen, {
-        scale: 0,
-        x: -100,
-        y: 220,
-        duration: .2,
+
+backBtn.forEach(back => {
+    back.addEventListener("click", () => {
+        gsap.to(collScreen, {
+            scale: 0,
+            x: -100,
+            y: 220,
+            duration: .2,
+        });
     });
-
-
 });
+
+// backBtn.addEventListener("click", () => {
+
+
+
+// });
 
 const listApp = document.querySelectorAll("#listApp");
 const menuScreen = document.querySelector(".menu-displays");
