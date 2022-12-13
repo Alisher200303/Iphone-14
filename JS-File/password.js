@@ -6,7 +6,7 @@ const numbers = document.querySelectorAll("li");
 const clearBtn = document.querySelector("#clear"),
       iosMenu = document.querySelector("#iosMenu");
 
-iosMenu.style.transform = "scale(.5)";
+iosMenu.style.transform = "scale(1)";
 
 
 numbers.forEach(num => {

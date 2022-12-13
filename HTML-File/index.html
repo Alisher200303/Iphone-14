@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iPhone - 7</title>
+    <title>iPhone - 14</title>
+    <link rel="stylesheet" href="/CSS-File/responsive.css">
     <link rel="stylesheet" href="/CSS-File/ios.css">
     <link rel="stylesheet" href="/CSS-File/menu.css">
     <link rel="stylesheet" href="/CSS-File/slider.css">
     <link rel="stylesheet" href="/CSS-File/apps.css">
+    <link rel="stylesheet" href="/CSS-File/call.css">
+    <link rel="stylesheet" href="/CSS-File/displays.css">
+    <link rel="stylesheet" href="/CSS-File/nav.css">
+    <link rel="stylesheet" href="/CSS-File/appColor.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
@@ -32,7 +37,7 @@
                                 </div>
                                 <div class="password-display">
                                     <form action="check">
-                                        <input type="password" accesskey="0">
+                                        <input type="password" accesskey="2003" max="4">
                                     </form>
                                 </div>
                                 <div class="numbers">
@@ -63,134 +68,704 @@
                                 </div>
                             </div>
                                 <section id="iosMenu">
-                                    <nav>
-                                        <div class="time">
-                                            <p>5:00</p>
-                                        </div>
-                                        <div class="self-camera size"></div>
-                                        <div class="veb-camera"></div>
-                                        <div class="set_and_battery">
-                                            <i class="fa-solid fa-signal"></i>
-                                            <i class="fa-solid fa-wifi"></i>
-                                            <i class="fa-solid fa-battery-three-quarters"></i>
-                                        </div>
-                                    </nav>
-                                    <!--======= Slider Section Start =======-->
-                                    <div class="display">
-                                        <div class="first-display">
-                                            <div class="slider">
-                                                <div class="first-slide">
-                                                    <img src="/Image/349c79a38eed46383b29047494cbc5bc.jpg" alt="">
-                                                    <img src="/Image/download (1).jpg" alt="">
+                                            <nav>
+                                                <div class="clock">
+                                                    <p>9:41</p>
                                                 </div>
-                                                <div class="iosApps" id="iosApps">
-                                                    <ul>
-                                                        <li id="settings">
-                                                            <img src="/Image/setings.png" alt="">
-                                                        </li>
-                                                        <li id="gallery">
-                                                            <img src="/Image/gallery.png" alt="">
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li id="music"><i class="bi bi-music-note-beamed"></i></li>
-                                                        <li id="camera"><i class="bi bi-camera-fill"></i></li>
-                                                    
-                                                    </ul>
+                                                <div class="center-inf">
+                                                    <div class="veb-cam"></div>
+                                                    <div class="addition-inf"></div>
                                                 </div>
-                                            </div>
-                                            <!--======= Slider Section End =======-->
-                                            <!--======= Apps Section Start =======-->
-                                            <div class="iosApps" id="defoult">
-                                                <ul>
-                                                    <li id="settings"><i class="fa-solid fa-video"></i></li>
-                                                    <li id="gallery"><i class="bi bi-calendar-date-fill"></i></li>
-                                                    <li id="music"><i class="fa-brands fa-app-store-ios"></i></li>
-                                                    <li id="camera"><i class="bi bi-clock-fill"></i></li>
-                                                </ul>
-                                                <ul>
-                                                    <li id="settings"><i class="bi bi-wallet-fill"></i></li>
-                                                    <li id="gallery"><i class="bi bi-card-text"></i></li>
-                                                    <li id="music"><i class="fa-solid fa-map-location-dot"></i></li>
-                                                    <li id="camera">
-                                                        <img style="width: 100%;" src="/Image/icon2.png" alt="">
-                                                    </li>
-                                                </ul>
-                                                <ul>
-                                                    <li id="settings">
-                                                        <img style="width: 100%;" src="/Image/iconTV.png" alt="">
-                                                    </li>
-                                                    <li id="gallery"><i class="fa-solid fa-podcast"></i></li>
-                                                    <li id="email"><i class="bi bi-envelope-fill"></i></li>
-                                                    <li id="camera">
-                                                        <img style="width: 100%;" src="/Image/reminder.png" alt="">
-                                                    </li>
-                                                </ul>
+                                                <div class="set-box">
+                                                    <i class="fa-solid fa-signal"></i>
+                                                    <i class="fa-solid fa-battery-full"></i>
+                                                </div>
+                                            </nav> 
+                                            <div class="menu-displays">
+                                                <div id="firstMenu" class="menuScreen">
+                                                    <div class="menu-slider">
+                                                        <div class="clock-slider">
+                                                            <img src="/Image/download.jpg" alt="">
+                                                            <img src="/Image/349c79a38eed46383b29047494cbc5bc.jpg" alt="">
+                                                        </div>
+                                                        <div class="addition-slider">
+                                                            <div class="weather">
+                                                                <p class="region">Bukhara</p>
+                                                                <h1>-7</h1>
+                                                                <i class="fa-solid fa-gradus"></i>
+                                                                <p>Lorem, ipsum dolor.</p>
+                                                            </div>
+                                                            <div class="calendar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="menu-apps">
+                                                        <ul>
+                                                            <li id="code">
+                                                                <i class="fa-solid fa-code"></i>
+                                                            </li>
+                                                            <li id="html">
+                                                                <i class="fa-brands fa-html5"></i>
+                                                            </li>
+                                                            <li id="css">
+                                                                <i class="fa-brands fa-css3-alt"></i>
+                                                            </li>
+                                                            <li id="bootstrap">
+                                                                <i class="fa-brands fa-bootstrap"></i>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li id="javascript">
+                                                                <i class="fa-brands fa-square-js"></i></li>
+                                                            <li id="react">
+                                                                <i class="fa-brands fa-react"></i>
+                                                            </li>
+                                                            <li id="angular">
+                                                                <i class="fa-brands fa-angular"></i>
+                                                            </li>
+                                                            <li id="nodeJS">
+                                                                <i class="fa-brands fa-node"></i>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li id="python">
+                                                                <i class="fa-brands fa-python"></i>
+                                                            </li>
+                                                            <li id="database">
+                                                                <i class="fa-solid fa-database"></i>
+                                                            </li>
+                                                            <li id="golang">
+                                                                <i class="fa-brands fa-golang"></i>
+                                                            </li>
+                                                            <li id="github">
+                                                                <i class="fa-brands fa-github"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="secondMenu" class="menuScreen">
+                                                    <div class="menu-apps">
+                                                        <ul>
+                                                            <li id="resume"><i class="fa-solid fa-file"></i></li>
+                                                            <li id="linkedin"><i class="fa-brands fa-linkedin"></i></li>
+                                                            <li id="facebook"><i class="fa-brands fa-facebook"></i></li>
+                                                            <li id="telegram"><i class="fa-brands fa-telegram"></i></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li id="instagram"><i class="fa-brands fa-instagram"></i></li>
+                                                            <li id="email"><i class="fa-solid fa-envelope"></i></li>
+                                                            <li id="git"><i class="fa-brands fa-git"></i></li>
+                                                            <li id="about-me"><i class="fa-solid fa-user"></i></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li id="location"><i class="fa-solid fa-location-dot"></i></li>
+                                                            <li id="phone"><i class="fa-solid fa-phone"></i></li>
+                                                            <li id="education"><i class="fa-solid fa-school"></i></li>
+                                                            <li id="briefcase"><i class="fa-solid fa-briefcase"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="thirdMenu" class="menuScreen">
+                                                    <div class="menu-apps">
+                                                        <ul>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                            <li></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                
                                             </div>
                                             <div class="scroll-btn">
-                                                    <a href="#defoult" id="main"></a>
-                                                    <a href="#secondDisplay" id="secondDP"></a>
-                                                    <a href="#thirdDisplay" id="secondDP"></a>
-                                            </div>
-                                        </div>
-                                            <div class="second-display" id="secondDisplay">
-                                                <div class="iosApps">
-                                                    <ul>
-                                                        <li id="html"><i class="fa-brands fa-html5"></i></li>
-                                                        <li id="css"><i class="fa-brands fa-css3-alt"></i></li>
-                                                        <li id="bootstrap"><i class="fa-brands fa-bootstrap"></i></li>
-                                                        <li id="sass"><i class="fa-brands fa-sass"></i></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li id="python"><i class="fa-brands fa-python"></i></li>
-                                                        <li id="golang"><i class="fa-brands fa-golang"></i></li>
-                                                        <li id="pay"><i class="fa-brands fa-cc-apple-pay"></i></li>
-                                                        <li id="facebook"><i class="fa-brands fa-facebook"></i></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li id="youTube"><i class="fa-brands fa-youtube"></i></li>
-                                                        <li id="twitter"><i class="fa-brands fa-twitter"></i></li>
-                                                        <li id="iCloud"><i class="fa-solid fa-cloud-arrow-up"></i></li>
-                                                        <li id="google"><i class="fa-brands fa-google"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>  
-                                            <div class="third-display" id="thirdDisplay">
-                                                <div class="iosApps">
-                                                    <ul>
-                                                        <li id="settings"><i class="fa-brands fa-tiktok"></i></li>
-                                                        <li id="gallery"><i class="fa-brands fa-instagram"></i></li>
-                                                        <li id="music"><i class="fa-brands fa-telegram"></i></li>
-                                                        <li id="camera"><i class="fa-brands fa-skype"></i></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li id="settings"><i class="fa-solid fa-puzzle-piece"></i></li>
-                                                        <li id="gallery"><i class="fa-brands fa-github"></i></li>
-                                                        <li id="music"><i class="fa-brands fa-git"></i></li>
-                                                        <li id="camera"><i class="fa-brands fa-js"></i></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li id="settings"><i class="fa-brands fa-react"></i></li>
-                                                        <li id="gallery"><i class="fa-brands fa-vuejs"></i></li>
-                                                        <li id="email"><i class="fa-sharp fa-solid fa-file-code"></i></li>
-                                                        <li id="camera"><i class="fa-solid fa-code"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>                                        
-                                    </div>
-                                    
+                                                <a href="#firstMenu"></a>
+                                                <a href="#secondMenu"></a>
+                                                <a href="#thirdMenu"></a>
+                                            </div>                       
                                     <!--======= Apps Section End =======-->
 
                                     <!--======= Main Apps Section Start =======-->
                                     <div class="mainApps">
                                         <ul>
-                                            <li><i class="fa-solid fa-phone"></i></li>
-                                            <li><i class="bi bi-browser-safari"></i></li>
-                                            <li><i class="bi bi-chat-fill"></i></li>
-                                            <li><i class="bi bi-music-note-beamed"></i></li>
+                                            <li id="phoneCall">
+                                                <img style="width: 100%;" src="/Image/phone.png" alt="">
+                                            </li>
+                                            <li id="safari">
+                                                <img style="width: 100%;" src="/Image/safari.png" alt="">
+                                            </li>
+                                            <li id="message">
+                                                <img style="width: 90%;" src="/Image/message.png" alt="">
+                                            </li>
+                                            <li id="cameraMain">
+                                                <img style="width: 90%;" src="/Image/camera.png" alt="">
+                                            </li>
                                         </ul>
                                     </div>
                                     <!--======= Main Apps Section End =======-->
+
+                                                                       
+                                </section>
+                                <section id="call-section">
+                                    <nav>
+                                        <div class="clock">
+                                            <p>9:41</p>
+                                        </div>
+                                        <div class="center-inf">
+                                            <div class="veb-cam"></div>
+                                            <div class="addition-inf"></div>
+                                        </div>
+                                        <div class="set-box">
+                                            <i class="fa-solid fa-signal"></i>
+                                            <i class="fa-solid fa-battery-full"></i>
+                                        </div>
+                                    </nav> 
+                                    <div class="call-title">
+                                        <div class="contact-header">
+                                            <div class="back-btn">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <div class="sort-btn">
+                                                <p id="defoult" class="defoult">All</p>
+                                                <p id="sort">Missed</p>
+                                            </div>
+                                            <div class="change-btn">
+                                                <p>Edit</p>
+                                            </div>
+                                        </div>
+                                        <div id="contact">
+                                            <div class="contact-title">
+                                                <h1>Recents</h1>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-list">
+                                                <div class="icon-call">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="call-list">
+                                                    <div class="user-name">
+                                                        <p class="name">Somebody</p>
+                                                        <p class="region">Uzbekistan</p>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <p class="time">Yesterday</p>
+                                                        <i class="fa-solid fa-circle-info"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="manage-section">
+                                        <div class="favorite-header">
+                                            <div class="plus-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </div>
+                                            <div class="title-favorite">
+                                                <p>Favorites</p>
+                                            </div>
+                                            <div></div>
+                                        </div>
+                                        <div class="center-info">
+                                            <h1>No Favorites</h1>
+                                        </div>
+                                    </div>
+                                    <div class="contact-section">
+                                        <div class="contact-fixed">
+                                            <div class="contact-header">
+                                                <div class="back-btn">
+                                                    <i class="fa-solid fa-angle-left"></i>
+                                                </div>
+                                                <div class="contact-title">
+                                                    <p>Contact</p>
+                                                </div>
+                                                <div class="plus-btn">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </div>
+                                            </div>
+                                            <div class="contact-name">
+                                                <p>Contact</p>
+                                            </div>
+                                            <div class="contact-search">
+                                                <input id="user-input" type="text" placeholder="Search">
+                                            </div>
+                                        </div>
+                                        <div class="people-list">
+                                            <div class="people-name">
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+                                                <div class="letter">
+                                                    <h3 id="a">A</h3>
+                                                </div>
+                                                <div class="person-name">
+                                                    <p>Alisher</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="upper-letter">
+                                                <ul type="none">
+                                                    <li>a</li>
+                                                    <li>b</li>
+                                                    <li>c</li>
+                                                    <li>d</li>
+                                                    <li>e</li>
+                                                    <li>f</li>
+                                                    <li>g</li>
+                                                    <li>h</li>
+                                                    <li>i</li>
+                                                    <li>j</li>
+                                                    <li>k</li>
+                                                    <li>l</li>
+                                                    <li>m</li>
+                                                    <li>n</li>
+                                                    <li>o</li>
+                                                    <li>p</li>
+                                                    <li>q</li>
+                                                    <li>r</li>
+                                                    <li>s</li>
+                                                    <li>t</li>
+                                                    <li>u</li>
+                                                    <li>v</li>
+                                                    <li>w</li>
+                                                    <li>x</li>
+                                                    <li>y</li>
+                                                    <li>z</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="call-manage">
+                                        <div class="favorite">
+                                            <i id="favorite" class="fa-solid fa-star same__thing"></i>
+                                            <p id="favorite-text" class="same__thing">Favourites</p>
+                                        </div>
+                                        <div class="favorite active">
+                                            <i id="recents" class="fa-solid fa-clock same__thing active"></i>
+                                            <p id="recents-text" class="same__thing active">Recents</p>
+                                        </div>
+                                        <div class="favorite">
+                                            <i id="user" class="fa-solid fa-circle-user same__thing"></i>
+                                            <p id="user-text" class="same__thing">Contact</p>
+                                        </div>
+                                        <div class="favorite">
+                                            <div id="keypad" class="key same__thing">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                            <p id="keypad-text" class="same__thing">Keypad</p>
+                                        </div>
+                                        <div class="favorite">
+                                            <i id="voicemail" class="fa-solid fa-voicemail same__thing"></i>
+                                            <p id="voicemail-text" class="same__thing">Voicemail</p>
+                                        </div>
+                                    </div>
                                     
                                 </section>
                                 <!--********* Ios Menu End *********-->                            
@@ -240,6 +815,7 @@
 
     <script src="/JS-File/main.js"></script>
     <script src="/JS-File/password.js"></script>
+    <script src="/JS-File/call.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     </body>
 </html>

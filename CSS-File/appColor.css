@@ -1,0 +1,154 @@
+:root
+{
+    --code-color: #000;
+    --html-color: rgb(190, 38, 38);
+    --css-color: rgb(51, 9, 204);
+    --bootstrap-color: rgb(124, 13, 168);
+
+    --js-color: rgb(230, 226, 18);
+    --react-color: rgb(19, 70, 163);
+    --angular-color: rgb(241, 14, 14);
+    --nodeJS-color: rgb(19, 236, 37);
+
+    --python-color: rgb(10, 85, 170);
+    --database-color: rgb(88, 87, 87);
+    --golang-color: rgb(8, 113, 184);
+    --github-color: #000;
+
+    --resume-color: rgb(38, 209, 181);
+    --linkedin-color: rgb(45, 62, 219);
+    --facebook-color: rgb(81, 91, 240);
+    --telegram-color: rgb(62, 120, 196);
+
+    --instagram-color: rgb(228, 36, 110);
+    --email-color: rgb(223, 69, 41);
+    --git-color: rgb(221, 75, 8);
+    --aboutMe-color: rgb(26, 194, 194);
+
+    --location-color: rgb(218, 49, 49);
+    --phone-color: rgb(231, 213, 49);
+    --education-color: rgb(121, 230, 48);
+    --briefcase-color: rgb(11, 92, 185);
+
+
+}
+
+#code
+{
+    color: var(--code-color);
+}
+
+#html
+{
+    color: var(--html-color);
+}
+
+#css
+{
+    color: var(--css-color);
+}
+
+#bootstrap
+{
+    color: var(--bootstrap-color);
+}
+
+#javascript
+{
+    color: var(--js-color);
+}
+
+#react
+{
+    color: var(--react-color);
+}
+
+#angular
+{
+    color: var(--angular-color);
+}
+
+#nodeJS
+{
+    color: var(--nodeJS-color);
+}
+
+#python
+{
+    color: var(--python-color);
+}
+
+#database
+{
+    color: var(--database-color);
+}
+
+#golang
+{
+    color: var(--golang-color);
+}
+
+#github
+{
+    color: var(--github-color);
+}
+
+#resume
+{
+    color: var(--resume-color);
+}
+
+#linkedin
+{
+    color: var(--linkedin-color);
+}
+
+#facebook
+{
+    color: var(--facebook-color);
+}
+
+#telegram
+{
+    color: var(--telegram-color);
+}
+
+#instagram
+{
+    color: var(--instagram-color);
+}
+
+#email
+{
+    color: var(--email-color);
+}
+
+#git
+{
+    color: var(--git-color);
+}
+
+#about-me
+{
+    color: var(--aboutMe-color);
+}
+
+#location
+{
+    color: var(--location-color);
+}
+
+#phone
+{
+    color: var(--phone-color);
+}
+
+#education
+{
+    color: var(--education-color);
+}
+
+#briefcase
+{
+    color: var(--briefcase-color);
+}

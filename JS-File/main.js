@@ -3,14 +3,18 @@
 const display = document.querySelectorAll("div"),
       firstScreen = document.querySelector("#firstScreen"),
       lockScreen = document.querySelector("#lockScreen"),
-      btnNum = document.querySelectorAll(".number ul"),
+      btnNum = document.querySelectorAll(".numbers ul"),
+      btnScreen = document.querySelector("input"),
       lockTitle = document.querySelector(".title h1");
+      
+      let activeBtn = btnNum.forEach(item => {
+          item.style.transform = "scale(.2)";
+        });
 
-let activeBtn = btnNum.forEach(item => {
-    item.style.transform = "scale(.2)";
-});
+// firstScreen.style.display = "none"
 
-let activeTitle = lockTitle.style.transform = "scale(.0)";
+let activeTitle = lockTitle.style.transform = "scale(0)";
+let screenHidden = btnScreen.style.transform = "scale(0)";
 
 
 
@@ -22,8 +26,13 @@ display.forEach(screen => {
                     scale: 1,
                     duration: .4,
                 });
+                
             });
             gsap.to (lockTitle, {
+                scale: 1,
+                duration: .4,
+            });
+            gsap.to (btnScreen, {
                 scale: 1,
                 duration: .4,
             });
@@ -32,33 +41,46 @@ display.forEach(screen => {
     });
 });
 
+const collScreen = document.querySelector("#call-section");
 
-const btn1 = document.querySelector(".carousel-control-prev");
-const btn2 = document.querySelector(".carousel-control-next");
+// collScreen.style.transform = "scale(0)";
 
+const phoneCall = document.querySelector("#phoneCall");
 
-const img1 = document.querySelector(".page__1");
-const img2 = document.querySelector(".page__2");
-const img3 = document.querySelector(".page__3");
+const backBtn = document.querySelector(".back-btn i")
 
-const photo1 = document.querySelector("imgOne");
-const photo2 = document.querySelector("imgTwo");
-const photo3 = document.querySelector("imgThree");
-
-
-const sizeImg = document.querySelectorAll(".size");
-
-
-
-sizeImg.forEach(img => {
-    img.style.transform = "scale(0.8)";
-})
-
-
-
-btn1.addEventListener("click", () => {
-    gsap.to (photo2, {
+phoneCall.addEventListener("click", () => {
+    gsap.to(collScreen, {
         scale: 1,
-        duration: .8,
-    });
+        x: 0,
+        y: 0,
+        duration: .2,
+    });  
 });
+
+backBtn.addEventListener("click", () => {
+    gsap.to(collScreen, {
+        scale: 0,
+        x: -100,
+        y: 220,
+        duration: .2,
+    });
+
+
+});
+
+const listApp = document.querySelectorAll("#listApp");
+const menuScreen = document.querySelector(".menu-displays");
+
+
+listApp.forEach(app => {
+    app.addEventListener("click", () => {
+        if (app.id == "listApp") {
+            app.classList.add("file");
+        }
+    });
+    menuScreen.addEventListener("scroll", () => {
+        app.classList.remove("file")
+    })
+});
+
